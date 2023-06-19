@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    color:white;
+    font-size: 2rem;
+}
+/* body {
+    background-image: url('https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.container {
+    height: 93vh;
+    width: 100vw;
+
+}
+
+.box {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin-top: 3rem;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.parts {
+    margin: 1.5rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(103, 206, 201);
+}
+
+label {
+    margin-right: auto;
+}
+
+input {
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 12rem;
+    height: 2rem;
+    caret-color: aliceblue;
+    caret-shape: bar;
+}
+
+input:focus {
+    border: #52c0b3;
+    /* outline: #245953; */
+}
+
+input::placeholder {
+    text-align: center;
+    color: rgb(86, 121, 109);
+}
+
+.submit {
+    border: none;
+    color: #f1eaea;
+    background-color: #245953;
+    margin: 1rem 7rem;
+    font-size: 1.5rem;
+}
+
+.login {
+    margin-top: 5.5rem;
+}
